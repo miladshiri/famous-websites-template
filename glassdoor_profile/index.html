@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
+    
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-2 mx-5" href="#"><span class="text-main-color">glassdoor</span></a>
+            <form class="w-50">
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control w-50 bg-light px-3 py-2 fs-6" placeholder="Search for job titles, companies, or keywords">
+                    <span class="p-2 bg-light text-muted border-top border-1 border-bottom">
+                        <span class="d-flex"><svg class="d-flex" width="24" height="24" viewBox="0 0 24 24"><path d="M12 8a2 2 0 11-2 2 2 2 0 012-2zm0-1a3 3 0 103 3 3 3 0 00-3-3zm0-5a8 8 0 018 8q0 6-8 12-8-6-8-12a8 8 0 018-8zm7 8a7 7 0 00-14 0c0 3.48 2.3 7.07 7 10.74 4.7-3.67 7-7.26 7-10.74z" fill="currentColor" fill-rule="evenodd"></path></svg></span>
+                    </span>
+                    <input type="text" class="form-control w-25 bg-light border-start-0" placeholder="Tampere">
+                    <button class="btn btn-outline-secondary bg-main-color" type="button" id="button-addon2">
+                        <svg class="d-flex text-light" width="24" height="24" viewBox="0 0 24 24"><path d="M10.5 3a7.5 7.5 0 107.5 7.5A7.5 7.5 0 0010.5 3zm0-1a8.5 8.5 0 016.35 14.15l5 5a.5.5 0 010 .7.5.5 0 01-.71 0l-5-5A8.5 8.5 0 1110.5 2z" fill="currentColor" fill-rule="evenodd"></path></svg>
+                    </button>
+                </div>
+            </form>
+            <div class="me-2 d-flex">
+                <a href="#" class="mx-3">
+                    <span class="material-icons-outlined fs-1 text-muted">
+                        inbox
+                    </span>
+                </a>
+                <a href="#" class="mx-3">
+                    <span class="material-icons-outlined fs-1 text-muted">
+                        account_circle
+                    </span>
+                </a>
+            </div>
+            
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-light border-bottom">
+        <div class="row container-fluid py-2">
+            <div class="col-5">
+                <div class="row ms-2">
+                    <div class="col">
+                        <div class="dropdown">
+                            <a href="#" class="d-flex align-items-center text-muted text-decoration-none">
+                                <span class="material-icons-outlined fs-4 me-2 d-flex justify-content-start">
+                                    work_outline
+                                </span>
+                                <span class="fs-6 fw-bold">    
+                                    Jobs
+                                </span>
+                            </a>
+                            
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item py-3" href="#"> Recent Activity</a></li>
+                                <li><a class="dropdown-item py-3" href="#"> Job Alerts </a></li>
+                                <li><a class="dropdown-item py-3" href="#"> Saved </a></li>
+                                <li><a class="dropdown-item py-3" href="#"> Applications </a></li>
+                            </ul>
+                        </div>
+                            
+                    </div>
+                    <div class="col">
+                        <a href="#" class="d-flex align-items-center text-muted text-decoration-none">
+                            <span class="material-icons-outlined fs-4 me-2">
+                                business
+                            </span>
+                            <span class="fs-6 fw-bold">
+                                Companies
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="d-flex align-items-center text-muted text-decoration-none">
+                            <span class="material-icons-outlined fs-4 me-2">
+                                local_atm
+                            </span>
+                            <span class="fs-6 fw-bold">
+                                Salaries
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="d-flex align-items-center text-muted text-decoration-none">
+                            <span class="material-icons-outlined fs-4 me-2">
+                                explore
+                            </span>
+                            <span class="fs-6 fw-bold">
+                                Careers
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-5 d-flex justify-content-end">
+                <div class="col-3">
+                    <a href="#" class="d-flex align-items-center text-muted text-decoration-none">
+                        <span class="fs-6 fw-bold">
+                            For Employers
+                        </span>
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="#" class="d-flex align-items-center text-muted text-decoration-none">
+                        <span class="material-icons-outlined fs-4 me-2">
+                            work_outline
+                        </span>
+                        <span class="fs-6 fw-bold">
+                            Post Jobs
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-5 ">
+        <div class="banner bg-warning mx-5 rounded-2 d-flex justify-content-center">     
+            <div class="d-flex justify-content-center align-items-center pt-5">
+                <div class="bg-white rounded-circle p-1">
+                    <div class="bg-light rounded-circle p-2">
+                        <div class="profile rounded-circle bg-light"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pt-5 d-flex flex-column align-items-center container">
+        <div class="fw-bold fs-3 text-center">Finish Your Glassdoor Profile!</div>
+        <div class="text-muted w-75 text-center">
+            Finishing your profile on Glassdoor helps us to better customize job opportunities for you, share relevant company review and salary information, and allows you to be discovered by employers.
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row pt-2 mt-3">
+            <div class="col d-flex justify-content-end border-end border-2">
+                <div class="d-flex flex-column align-items-start">
+                    <div class="d-flex align-items-center py-2">
+                        <span class="material-icons-outlined px-3 text-success fs-2">
+                            work_outline
+                        </span>
+                        <span class="fw-bold fs-5">
+                            Apply to jobs faster
+                        </span>
+                    </div>
+                    <div class="d-flex align-items-center py-2">
+                        <span class="material-icons-outlined px-3 text-success fs-2">
+                            adjust
+                        </span>
+                        <span class="fw-bold fs-5">
+                            Personalized search results
+                        </span>
+                    </div>
+                    <div class="d-flex align-items-center py-2">
+                        <span class="material-icons-outlined px-3 text-success fs-2">
+                            description
+                        </span>
+                        <span class="fw-bold fs-5">
+                            Increase visibility to employers
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex flex-column align-items-center justify-content-between">
+                <button class="btn btn-primary mt-4">Finish My Profile</button>
+                <div class="d-flex align-items-center w-75">
+                    <span class="material-icons-outlined text-success fs-1 me-4">
+                        groups
+                    </span>
+                    <span>Don’t worry, your reviews will always remain anonymous.</span>
+                </div>               
+            </div>
+
+        </div>
+    </div>
+
+  </body>
+</html>

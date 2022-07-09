@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    
+    <title>Hello, world!</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-md navbar-light border-bottom p-0 ps-5">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="text-main-color fw-bold fs-3">Quoraa</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item border-main-color">
+                        <a class="nav-link" href="#">
+                            <svg class="text-main-color" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="currentColor"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>                       
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <svg class="text-muted" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="currentColor"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><path d="M16,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V8L16,3z M19,19H5V5h10v4h4V19z M7,17h10v-2H7V17z M12,7H7 v2h5V7z M7,13h10v-2H7V13z"/></g></svg>
+                            <span class="position-relative me-auto">
+                                <span class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
+                                    <span class="visually-hidden">New alerts</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <svg class="text-muted" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"  viewBox="0 0 24 24" fill="currentColor"><rect fill="none" height="24" width="24"/><path d="M3,10h11v2H3V10z M3,8h11V6H3V8z M3,16h7v-2H3V16z M18.01,12.87l0.71-0.71c0.39-0.39,1.02-0.39,1.41,0l0.71,0.71 c0.39,0.39,0.39,1.02,0,1.41l-0.71,0.71L18.01,12.87z M17.3,13.58l-5.3,5.3V21h2.12l5.3-5.3L17.3,13.58z"/></svg>
+                            <span class="position-relative">
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    2
+                                    <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <svg class="text-muted" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9 13.75c-2.34 0-7 1.17-7 3.5V19h14v-1.75c0-2.33-4.66-3.5-7-3.5zM4.34 17c.84-.58 2.87-1.25 4.66-1.25s3.82.67 4.66 1.25H4.34zM9 12c1.93 0 3.5-1.57 3.5-3.5S10.93 5 9 5 5.5 6.57 5.5 8.5 7.07 12 9 12zm0-5c.83 0 1.5.67 1.5 1.5S9.83 10 9 10s-1.5-.67-1.5-1.5S8.17 7 9 7zm7.04 6.81c1.16.84 1.96 1.96 1.96 3.44V19h4v-1.75c0-2.02-3.5-3.17-5.96-3.44zM15 12c1.93 0 3.5-1.57 3.5-3.5S16.93 5 15 5c-.54 0-1.04.13-1.5.35.63.89 1 1.98 1 3.15s-.37 2.26-1 3.15c.46.22.96.35 1.5.35z"/></svg>                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <svg class="text-muted" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/></svg>                        </a>
+                    </li>
+                    
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2 search-icon" type="search" placeholder="Search Quoraa" aria-label="Search">
+                </form>
+
+                <button class="btn btn-light rounded-pill border border-1 fs-6 text-muted fw-bold py-1">
+                    <small>Try Quora+</small>
+                </button>
+
+                <ul class="navbar-nav px-3 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img class="profile rounded-circle " src="src/profile.jpg">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <svg class="text-muted" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2s.07-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg>          
+                        </a>
+                    </li>
+
+                </ul>
+
+                  <div class="btn-group">
+                    <button id="button1" type="button" class="btn btn-sm bg-main-color fw-bold text-light">Add question</button>
+                    <button id="button2" type="button" class="btn btn-sm bg-main-color dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <!-- <button type="button" class="btn btn-sm bg-main-color fw-bold text-light rounded-pill dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Add question
+                    </button> -->
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  
+
+            </div>
+            
+        </div>
+    </nav>
+    <div class="bg-light pt-4">
+        <div class="container mb-5">
+            <div class="row">
+                    <div id="left-list" class="col-2 d-flex flex-column">
+                        <a class="bg-second-color" href="#">
+                            <span class="rounded ">+</span>
+                            <span>Create Space</span>
+                        </a>
+                        <a href="#">
+                            <span class="position-relative me-auto">
+                                <img src="src/pic1.jpg">
+                                <span class="position-absolute top-0 start-50 translate-middle ms-2 p-1 bg-danger border border-light rounded-circle">
+                                    <span class="visually-hidden">New alerts</span>
+                                </span>
+                            </span>
+                            <span>PhD Advice Hub</span>
+                        </a>
+                        <a href="#">
+                            <img src="src/pic1.jpg">
+                            <span>PhD Advice Hub</span>
+                        </a>
+                        <a href="#">
+                            <img src="src/pic1.jpg">
+                            <span>PhD Advice Hub</span>
+                        </a>
+                        <a href="#">
+                            <img src="src/pic1.jpg">
+                            <span>PhD Advice Hub</span>
+                        </a>
+                        <a href="#">
+                            <img src="src/pic1.jpg">
+                            <span>PhD Advice Hub</span>
+                        </a>
+                        <a href="#">
+                            <img src="src/pic1.jpg">
+                            <span>PhD Advice Hub</span>
+                        </a>
+                        <a href="#">
+                            <img src="src/pic1.jpg">
+                            <span>PhD Advice Hub</span>
+                        </a>
+
+                    </div>
+                    <div class="col-7">
+                        <div class="bg-white border-gray">
+                            <div class="row">
+                                <div class="col">
+                                    <img class="profile rounded-circle " src="src/profile.jpg">
+                                    <input class="w-75 border-gray text-gray-dark rounded-pill bg-light ps-2 text-start" type="button" value="What do you want to ask or share?">
+                                </div>
+                            </div>
+                            <div class="row text-gray-darker pb-2 ps-4 pe-4">
+                                <div class="col text-center border-end hover-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h4l3 3 3-3h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 16h-4.83l-.59.59L12 20.17l-1.59-1.59-.58-.58H5V4h14v14zm-8-3h2v2h-2zm1-8c1.1 0 2 .9 2 2 0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4S8 6.79 8 9h2c0-1.1.9-2 2-2z"/></svg>
+                                    <span>Ask</span>
+                                </div>
+                                <div class="col text-center border-end hover-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor"><rect fill="none" height="24" width="24"/><path d="M3,10h11v2H3V10z M3,8h11V6H3V8z M3,16h7v-2H3V16z M18.01,12.87l0.71-0.71c0.39-0.39,1.02-0.39,1.41,0l0.71,0.71 c0.39,0.39,0.39,1.02,0,1.41l-0.71,0.71L18.01,12.87z M17.3,13.58l-5.3,5.3V21h2.12l5.3-5.3L17.3,13.58z"/></svg>
+                                    <span>Answer</span>
+                                </div>
+                                <div class="col text-center hover-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M14.06 9.02l.92.92L5.92 19H5v-.92l9.06-9.06M17.66 3c-.25 0-.51.1-.7.29l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.2-.2-.45-.29-.71-.29zm-3.6 3.19L3 17.25V21h3.75L17.81 9.94l-3.75-3.75z"/></svg>
+                                    <span>Post</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white border-gray mt-4">
+                            <div class="d-flex pt-2">
+                                <div class="col d-flex">
+                                    <img class="post-profile rounded-circle " src="src/profile.jpg">
+                                    <div class="d-flex flex-column">
+                                        <span class="fw-bold fs-6">Firstname Lastname</span>
+                                        <span class="text-gray-darker fs-6">Job title and position</span>
+                                    </div>
+                                </div>
+                                <div class="p-2 text-gray-darker">
+                                    <button class="btn rounded-circle hover-dark p-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="post-body pt-2 ps-3">
+                                <div class="post-title fw-bold">
+                                    <a class="text-decoration-none text-black" href="#">
+                                        We put the title of posts here
+                                    </a>    
+                                </div>
+                                <div class="post-text pt-1">
+                                        Text of the post. Text of the post. Text of the post. Text of the post. 
+                                        Text of the post. Text of the post. Text of the post. Text of the post. 
+                                        Text of the post. Text of the post. Text of the post. Text of the post. 
+                                </div>
+                            </div>
+                            <div class="post-image pt-2">
+                                <img class="img-fluid" src="src/post_image.jpg">
+                            </div>
+                            <div class="post-footer p-2">
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="left-button post-button bg-second-color border-0 text-black p-1">
+                                        <img src="src/up.png" width="20" class="ms-2">
+                                        15
+                                    </button>
+                                    <button type="button" class="right-button post-button bg-second-color border-0 text-black p-1">
+                                        <img src="src/down.png" width="20" class="me-2">
+
+                                    </button>
+                                </div>
+                                <button type="button" class="post-button post-button-bg border-0 rounded-circle text-black p-1">
+                                    <img src="src/refresh.png" width="20" class="">
+                                    1
+                                </button>
+                                <button type="button" class="post-button post-button-bg border-0 rounded-circle text-black p-1">
+                                    <img src="src/comment.png" width="25" class="p-1">
+                                    123
+                                </button>
+                            </div>
+                        </div>
+                        <div class="bg-white border-gray mt-4">
+                            <div class="d-flex pt-2">
+                                <div class="col d-flex">
+                                    <img class="post-profile rounded-circle " src="src/profile.jpg">
+                                    <div class="d-flex flex-column">
+                                        <span class="fw-bold fs-6">Firstname Lastname</span>
+                                        <span class="text-gray-darker fs-6">Job title and position</span>
+                                    </div>
+                                </div>
+                                <div class="p-2 text-gray-darker">
+                                    <button class="btn rounded-circle hover-dark p-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="post-body pt-2 ps-3">
+                                <div class="post-title fw-bold">
+                                    <a class="text-decoration-none text-black" href="#">
+                                        We put the title of posts here
+                                    </a>    
+                                </div>
+                                <div class="post-text pt-1">
+                                        Text of the post. Text of the post. Text of the post. Text of the post. 
+                                        Text of the post. Text of the post. Text of the post. Text of the post. 
+                                        Text of the post. Text of the post. Text of the post. Text of the post. 
+                                </div>
+                            </div>
+                            <div class="post-image pt-2">
+                                <img class="img-fluid" src="src/post_image.jpg">
+                            </div>
+                            <div class="post-footer p-2">
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="left-button post-button bg-second-color border-0 text-black p-1">
+                                        <img src="src/up.png" width="20" class="ms-2">
+                                        15
+                                    </button>
+                                    <button type="button" class="right-button post-button bg-second-color border-0 text-black p-1">
+                                        <img src="src/down.png" width="20" class="me-2">
+
+                                    </button>
+                                </div>
+                                <button type="button" class="post-button post-button-bg border-0 rounded-circle text-black p-1">
+                                    <img src="src/refresh.png" width="20" class="">
+                                    1
+                                </button>
+                                <button type="button" class="post-button post-button-bg border-0 rounded-circle text-black p-1">
+                                    <img src="src/comment.png" width="25" class="p-1">
+                                    123
+                                </button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col">
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between">
+                                    <div class="">
+                                        <img src="src/pic1.jpg" width="20" height="20" class="rounded">
+                                    </div>
+                                    <div class="ps-2 lh-1">
+                                        <div class="fw-bold">Advance AI</div>
+                                        <div class="text-secondary fw-light">A space for advances in AI, Blockchaine, Science, Space and startup</div>
+                                    </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                    <div class="">
+                                        <img src="src/pic1.jpg" width="20" height="20" class="rounded">
+                                    </div>
+                                    <div class="ps-2 lh-1">
+                                        <div class="fw-bold">Advance AI</div>
+                                        <div class="text-secondary fw-light">A space for advances in AI, Blockchaine, Science, Space and startup</div>
+                                    </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                    <div class="">
+                                        <img src="src/pic1.jpg" width="20" height="20" class="rounded">
+                                    </div>
+                                    <div class="ps-2 lh-1">
+                                        <div class="fw-bold">Advance AI</div>
+                                        <div class="text-secondary fw-light">A space for advances in AI, Blockchaine, Science, Space and startup</div>
+                                    </div>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
